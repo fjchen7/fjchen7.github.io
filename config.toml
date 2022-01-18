@@ -10,7 +10,6 @@ hasCJKLanguage = true
 # summaryLength = 0
 # 网站标题
 title = "fjchen"
-publishDir = 'docs'
 theme = "LoveIt"
 
 [author]
