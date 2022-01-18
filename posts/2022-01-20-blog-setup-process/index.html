@@ -16,7 +16,7 @@
 <meta name=application-name content="fjchen">
 <meta name=apple-mobile-web-app-title content="fjchen"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://fjchen.top/posts/2022-01-20-blog-setup-process/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"本博客的搭建流程","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fjchen.top\/posts\/2022-01-20-blog-setup-process\/"},"genre":"posts","keywords":"手册, 博客","wordcount":3357,"url":"https:\/\/fjchen.top\/posts\/2022-01-20-blog-setup-process\/","datePublished":"2022-01-17T09:05:28+08:00","dateModified":"2022-01-17T09:05:28+08:00","publisher":{"@type":"Organization","name":"fjchen"},"author":{"@type":"Person","name":"fjchen"},"description":""}</script></head>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://fjchen.top/posts/2022-01-20-blog-setup-process/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"本博客的搭建流程","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/fjchen.top\/posts\/2022-01-20-blog-setup-process\/"},"genre":"posts","keywords":"手册, 博客","wordcount":3361,"url":"https:\/\/fjchen.top\/posts\/2022-01-20-blog-setup-process\/","datePublished":"2022-01-17T09:05:28+08:00","dateModified":"2022-01-17T09:05:28+08:00","publisher":{"@type":"Organization","name":"fjchen"},"author":{"@type":"Person","name":"fjchen"},"description":""}</script></head>
 <body header-desktop=normal header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'light'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'light'==='dark')&&document.body.setAttribute('theme','dark')</script>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
 <div class=header-wrapper>
@@ -57,7 +57,7 @@
 <div class="toc-content always-active" id=toc-content-auto></div>
 </div><article class="page single"><h1 class="single-title animated flipInX">本博客的搭建流程</h1><div class=post-meta>
 <div class=post-meta-line><span class=post-author><a href=fjchen.top title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>fjchen</a></span>&nbsp;<span class=post-category>收录于 <a href=/categories/%E6%89%8B%E5%86%8C/><i class="far fa-folder fa-fw"></i>手册</a></span></div>
-<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2022-01-17>2022-01-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3357 字&nbsp;
+<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2022-01-17>2022-01-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3361 字&nbsp;
 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 7 分钟&nbsp;</div>
 </div><div class="details toc" id=toc-static kept>
 <div class="details-summary toc-title">
@@ -192,8 +192,8 @@ git push origin gh-pages
 git checkout main
 </code></pre></div><ol start=2>
 <li>编写 GitHub Actions 脚本并提交，具体内容可以见<a href=https://github.com/fjchen7/fjchen7.github.io/commit/1ce6f830c50c1e86e672ffec18acd72a98390bf6 target=_blank rel="noopener noreffer">这个 commit</a>。</li>
-<li>配置让 GitHub Pages 读取 gh-pages 分支：修改仓库的 Settings -> Pages -> Source<br>
-<img class=lazyload src=/svg/loading.min.svg data-src=/images/2022-01-20-github-settings-pages-ph-pages.png data-srcset="/images/2022-01-20-github-settings-pages-ph-pages.png, /images/2022-01-20-github-settings-pages-ph-pages.png 1.5x, /images/2022-01-20-github-settings-pages-ph-pages.png 2x" data-sizes=auto alt=/images/2022-01-20-github-settings-pages-ph-pages.png title=/images/2022-01-20-github-settings-pages-ph-pages.png></li>
+<li>配置让 GitHub Pages 读取 gh-pages 分支的根目录：修改仓库的 Settings -> Pages -> Source<br>
+<img class=lazyload src=/svg/loading.min.svg data-src=/images/2022-01-20-github-settings-pages-gh-pages.png data-srcset="/images/2022-01-20-github-settings-pages-gh-pages.png, /images/2022-01-20-github-settings-pages-gh-pages.png 1.5x, /images/2022-01-20-github-settings-pages-gh-pages.png 2x" data-sizes=auto alt=/images/2022-01-20-github-settings-pages-gh-pages.png title=/images/2022-01-20-github-settings-pages-gh-pages.png></li>
 </ol>
 <p>现在，你推送修改到 main 分支，GitHub Actions 会帮你生成静态文件并提交到 gh-pages 分支。这样省去了一步，而且源文件和编译后的文件分开了，更有利于维护。</p>
 <h2 id=主题配置>主题配置</h2>
