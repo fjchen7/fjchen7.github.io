@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>fjchen</title><link>https://fjchen.top/</link><description>fjchen</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fjchen.top/index.xml" rel="self" type="application/rss+xml"/><item><title>本博客的搭建流程</title><link>https://fjchen.top/posts/2022-01-22-blog-setup-process/</link><pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate><author>作者</author><guid>https://fjchen.top/posts/2022-01-22-blog-setup-process/</guid><description><![CDATA[<p><a href="https://pages.github.com/" target="_blank" rel="noopener noreffer">GitHub Pages</a> 是 Github 提供的一项服务，让你能不需要主机和域名，通过仓库就能建立个人网站。</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>手册 - 标签 - fjchen</title><link>https://fjchen.top/tags/%E6%89%8B%E5%86%8C/</link><description>手册 - 标签 - fjchen</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fjchen.top/tags/%E6%89%8B%E5%86%8C/" rel="self" type="application/rss+xml"/><item><title>本博客的搭建流程</title><link>https://fjchen.top/posts/2022-01-22-blog-setup-process/</link><pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate><author>作者</author><guid>https://fjchen.top/posts/2022-01-22-blog-setup-process/</guid><description><![CDATA[<p><a href="https://pages.github.com/" target="_blank" rel="noopener noreffer">GitHub Pages</a> 是 Github 提供的一项服务，让你能不需要主机和域名，通过仓库就能建立个人网站。</p>
 <p>用 GitHub Pages 搭建的大都是静态网站。静态网站是指提前编译好文件，访问时直接返回它们的网站。与之相对的是动态网站，每次访问时服务器需要重新生成文件。由于内容变化不频繁，个人博客基本都是静态网站。</p>
 <p>通过编写 HTML/CSS/JavaScript，理论上能在静态网站上实现各种功能，比如样式、评论、标签等。但这费时费力，对于没有前端经验的人来说也不现实。而<strong>静态网站生成器</strong>能解决这个痛点——依靠它，你能用很简单的方式来定制化，最后生成前端文件即可，大大减少了工作量。</p>
 <p>GitHub Pages 常搭配的静态网站生成器有 Jekyll、Hexo 和 Hugo。</p>
@@ -149,15 +149,4 @@ git checkout main
 <li><a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener noreffer">Hugo Getting Started</a>：官方文档。</li>
 <li><a href="https://zhuanlan.zhihu.com/p/37752930" target="_blank" rel="noopener noreffer">如何使用Hugo在GitHub Pages上搭建免费个人网站</a></li>
 </ul>
-]]></description></item><item><title>博客开张</title><link>https://fjchen.top/posts/2022-01-20-start-blog/</link><pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate><author>作者</author><guid>https://fjchen.top/posts/2022-01-20-start-blog/</guid><description><![CDATA[<p>经历一周时间，忙里偷闲，终于搭好了这个博客。</p>
-<h2 id="为什么搭建博客">为什么搭建博客？</h2>
-<p>搭建这个博客是非常偶然的。没有什么计划，只是突然意识到应该记录一下自我，否则以后会发现什么痕迹没留下。我坚持写过日记（正经人谁写日记🐶），但无非是一些无病呻吟的口水话，现在看来只能是笑笑年少单纯，很难体会到当时的心情。而且日记总是难以坚持，我每写一段时间，就会荒废更长的时间，然后等着心血来潮重新拾起。于是选择只剩公共平台了，而国内的环境太差，账号和文章都不属于作者，剩下的就只有博客。</p>
-<h2 id="这个博客写什么">这个博客写什么？</h2>
-<p>如前面所说，初心是记录，但这里的背面是传递价值。如果写的还是泛滥的情绪或无关紧要的琐事，那就没有什么意义了。我想总归要沉淀些什么，思考和梳理出一些想法和过程，然后传递出来。无论是观点，事实或一些技巧，只要能给人带来帮助，那就是价值所在。最坏的情况下，如果一个读者也没有，我也希望未来的自己在回顾这些文字时，能收获或回忆一些东西，赞同某些观点。文字是有韧性，这种力量不会随着时间而消散。</p>
-<p>愿景归愿景，回归到个人本身，我的本职是开发，所以大概一半以上的内容会跟这方面相关。可能实现了什么或发现某个原理，就会迫不及待地想写下来。许多开发者都是这么做的，但我在写作上还有一点追求。费曼说过，用简单的表述去解释复杂的东西，让小孩子也能理解，你才算学懂了。技术文章都偏理性，但作为思考和归纳的一个渠道，我会试图解释清楚它们，写得浅显易懂，力求不了解该领域的读者也能有所收获。这算是一个小小的执着吧。</p>
-<p>此外，我的空闲时间都投入在阅读中了。所以如果读到什么好书，也很可能会分享在这里。书是很不错的东西，离开学校后，只有伴随着它你才不会丢失成长。我的阅读范围并不限于特定领域，所以内容也会比较杂，可能从医疗健康到历史人文，从物理化学到金融政治，无所不包。我不是专家，但将已有的知识分享出来，顺序满足一下分享欲，那也很不错。</p>
-<p>当然，如果生活中发现什么趣事，我也可能写在这里。总是严肃内容会让这个空间看起来有点冷峻，偶尔还是需要一点好玩的东西。</p>
-<h2 id="最后">最后</h2>
-<p>抱着一点功利心，若记录之外能为我带来其他收获，比如写作的提升，个人履历的体现，甚至是未来给能以此为基础出一本小书，那就再好不过了。但这些都过于遥远，多妄想将扰乱当下。沉淀够扎实了，必定会有意外收获，但目前更应该专注于一字一句上。</p>
-<p>搭建好博客后，最大的困难在于能否坚持。只要能坚持下去，那就成功了八成以上。现在我自然是颇有信心，但未来如何，谁也难以预料。希望在半年一年后，重新回顾这段时间，能感到饱满且充满意义的。</p>
 ]]></description></item></channel></rss>
