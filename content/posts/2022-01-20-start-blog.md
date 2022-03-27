@@ -1,7 +1,7 @@
 ---
 title: "博客开张"
 date: 2022-01-20
-categories: ["随想"]
+categories: ["随笔"]
 tags: ["博客", "里程碑"]
 summary: "经历一周时间，忙里偷闲，终于搭好了这个博客。"
 ---
