@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://fjchen.top"
+baseURL = "https://fjchen.me"
 title = "fjchen"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -10,7 +10,7 @@ copyright = "在保留本文作者及本文链接的前提下，非商业用途�
 
 # 主题选择
 # 仓库：https://github.com/reuixiy/hugo-theme-meme
-# 作者的网站：https://io-oi.me/
+# 作者网站：https://io-oi.me/
 # 作者网站的配置：https://github.com/reuixiy/io-oi.me
 theme = "meme"
 
@@ -107,7 +107,7 @@ uglyURLs = false
     # 头像
     avatar = "/images/avatar.jpg"
     # 网站（默认值：baseURL）
-    website = "https://fjchen.top"
+    website = "https://fjchen.me"
     # 推特
     twitter = "fjchen7"
 
@@ -306,7 +306,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1.75
+    siteBrandFontSize = 2
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -986,7 +986,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 18
+    fontSize = 16
 
     ######################################
     ## 制表符的宽度
